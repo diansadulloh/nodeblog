@@ -19,6 +19,8 @@ body {
    background-color: transparent;
    border-width: 0px;
    position: absolute; 
+   margin-left: 20px;
+   
 }
 
 .navbar-header {
