@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -62,6 +63,17 @@ ul.nav.navbar-nav a:hover{
 
 .navbar-toggle {
     background-color: whitesmoke;
+}
+
+/* Posts */
+
+.post-title {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.post {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

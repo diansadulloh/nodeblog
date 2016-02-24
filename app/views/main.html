@@ -1,0 +1,41 @@
+<div class="container">
+      <div class="row">
+        <div class="col-lg-24">
+            <div class="preview">
+                <h2 class="post-title">Event-Driven IO, and Upsetting Network Engineers</h2>
+                <p class="post">
+                    We learned about Node.JS this week, and that's fairly fascinating, but let's start off this
+                    entire thing by discussing how Event-Driven IO turns the traditional TCP/IP Syn-Ack idea sort of of on its head, and sort of not.
+                </p>
+                <p class="post">
+                    Assume for a moment that you're living in a world where the client is the first to ask a server for something.  In fact, let's just break
+                    that down all the way to some sort of standard-issue human decipherable vernacular and imagine instead that the servers at restaurants were 
+                    constantly standing at your table refilling your water glass without even asking.  That's a bit like this.  
+                <p class="post">
+                    Node.JS doesn't tell the server "When" while a 19 year old fresh out of school is laying into that parmesan over your salad like his life depends on it.  Okay, maybe
+                    Node would say when, but it's also okay with getting all of that parmesan.  It's really into cheese, actually.
+                </p>
+                <br>
+                   <img class="img-rounded" src='/images/grated-parmesan-cheese.jpg' width="600" max-width="600" max-height="300"></img>
+                <br>
+                <br>
+                <p class="post">
+                    I'm terrible with analogies so let's talk about Node from the technical perspective instead.  Instead let's think about blocking I/O, and the client-server
+                    model that we have all come to know, and love, and route to (via EIGRP thanks Cisco).  In the blocking I/O environment, you have multiple reqeusts coming in from
+                    whoever, and whoever is clients, and clients are always wanting something.  
+                </p>
+                    
+                <p class="post">
+                    Your super happy to serve server with 16 GB RAM web server is chomping at the bit to handle
+                    all of these requests, and as requests come in, generates many many different threads on which it will compute whatever clients 0-F want (do you see what I did there).
+                    Fantastic, except, well, I am le sorry clients but if you exceed my capacity with these bazillion threads of yours which I will handle ever so orderly, you will need to 
+                    wait in line, okay, RSVP for your spot ASAP.   
+           
+                </p>
+            </div>
+        </div>
+    </div>  
+    <hr>  
+</div>
+    
+                
